@@ -22,7 +22,7 @@ import logging
 import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from usage import ClaudeRateLimitReader, CodexUsageReader, UsageReader
+from server.usage import ClaudeRateLimitReader, CodexUsageReader, UsageReader
 
 logger = logging.getLogger("ai-usage-monitor")
 
