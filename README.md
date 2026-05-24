@@ -8,9 +8,9 @@ This project is local-first. Provider credentials stay on the developer machine,
 
 ## Status
 
-Early open-source draft.
+Working open-source release.
 
-The first working implementation lives inside the CcCompanion local server and iOS app. The code can be extracted into a standalone repository with the layout suggested below.
+This repository contains a standalone, runnable implementation extracted from the CcCompanion local server: the usage readers, a dependency-free HTTP server (`GET /usage`, `GET /usage/active`), the Claude Code status-line capture script, and unit tests with sanitized fixtures. The iOS SwiftUI panel and web dashboard remain on the roadmap below.
 
 Current implementation:
 
@@ -285,7 +285,7 @@ Example Claude config shape:
 This is the target standalone setup:
 
 ```bash
-git clone https://github.com/your-name/ai-usage-monitor.git
+git clone https://github.com/waterside0219/ai-usage-monitor.git
 cd ai-usage-monitor
 python3 -m venv .venv
 . .venv/bin/activate

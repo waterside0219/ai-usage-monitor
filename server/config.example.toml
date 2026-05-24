@@ -1,0 +1,13 @@
+# AI Usage Monitor — example configuration.
+# Copy to config.toml and run:  python server/app.py --config server/config.toml
+# CLI flags (--host/--port/--shared-secret) override values here.
+# Requires Python 3.11+ for config-file support; otherwise use CLI flags.
+
+[server]
+host = "127.0.0.1"
+port = 8795
+
+# Shared secret for remote access (LAN / Tailscale / tunnel).
+# Leave empty for localhost-only use. When set, clients MUST send the same
+# value in the  X-Auth-Token  request header.
+shared_secret = ""

@@ -1,0 +1,21 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Local credentials, caches, and runtime data — NEVER commit these
+config.toml
+*.local.toml
+.env
+auth.json
+usage-limits.json
+rate_limits_latest.json
+ccusage_cache.json
+.codex/
+.claude/
+*.secret

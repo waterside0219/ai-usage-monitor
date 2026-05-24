@@ -1,0 +1,8 @@
+# AI Usage Monitor uses only the Python standard library (Python 3.9+).
+# No pip packages are required, so this file is intentionally empty.
+#
+# External runtime dependencies (installed separately, NOT via pip):
+#   - ccusage    : npm install -g ccusage   (Claude Code active block + cost)
+#   - Codex CLI  : logged in so ~/.codex/auth.json exists  (Codex quota)
+#
+# Config-file support (--config) needs Python 3.11+ (stdlib tomllib).

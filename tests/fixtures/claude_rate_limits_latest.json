@@ -1,0 +1,11 @@
+{
+  "available": true,
+  "updated_at": 1779626400,
+  "model": "Opus 4.7",
+  "five_hour": null,
+  "seven_day": {
+    "used_percent": 62,
+    "reset_at": 4070908800,
+    "reset_after_seconds": 73360
+  }
+}

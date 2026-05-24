@@ -1,0 +1,29 @@
+{
+  "blocks": [
+    {
+      "isActive": true,
+      "startTime": "2026-05-24T10:00:00.000Z",
+      "endTime": "2026-05-24T15:00:00.000Z",
+      "models": ["claude-opus-4-7"],
+      "entries": 42,
+      "totalTokens": 544831,
+      "tokenCounts": {
+        "inputTokens": 12000,
+        "outputTokens": 8000,
+        "cacheCreationInputTokens": 100000,
+        "cacheReadInputTokens": 424831
+      },
+      "costUSD": 1.050393,
+      "burnRate": {
+        "tokensPerMinute": 1200.5,
+        "tokensPerMinuteForIndicator": 1100.0,
+        "costPerHour": 0.42
+      },
+      "projection": {
+        "totalTokens": 600000,
+        "totalCost": 1.2,
+        "remainingMinutes": 143
+      }
+    }
+  ]
+}
